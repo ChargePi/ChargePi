@@ -7,7 +7,7 @@
       "protocol_version": "1.6",
       "current_client_version": "1.0",
       "target_client_version": "1.0",
-      "server_uri": "172.0.1.121:8180//steve/websocket/CentralSystemService",
+      "server_uri": "172.0.1.121:8180/steve/websocket/CentralSystemService",
       "log_server": "",
       "max_charging_time": 5
     },
