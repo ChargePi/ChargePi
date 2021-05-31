@@ -1,0 +1,8 @@
+StartChargingSuccess = "Started"
+StopChargingSuccess = "Stopped"
+StartChargingFail = "Failed"
+StopChargingFail = "Failed"
+NoAvailableConnectors = "No available connectors"
+ConnectorUnavailable = "Connector unavailable"
+NoConnectorWithTransaction = "No connector with transaction id"
+UnauthorizedCard = "Unauthorized card"

@@ -1,0 +1,32 @@
+{
+  "charge_point": {
+    "info": {
+      "vendor": "UL FE",
+      "model": "ChargePi",
+      "id": "ChargePi",
+      "protocol_version": "1.6",
+      "current_client_version": "1.0",
+      "target_client_version": "1.0",
+      "server_uri": "172.0.1.121:8180//steve/websocket/CentralSystemService",
+      "log_server": "",
+      "max_charging_time": 5
+    },
+    "hardware": {
+      "lcd": {
+        "is_supported": true,
+        "i2c_address": "0x27"
+      },
+      "rfid_reader": {
+        "is_supported": true,
+        "reader_model": "PN532",
+        "reset_pin": 19
+      },
+      "LED_indicator": {
+        "indicate_card_read": true,
+        "type": "WS281x",
+        "invert": false
+      },
+      "min_power": 20
+    }
+  }
+}

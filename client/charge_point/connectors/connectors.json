@@ -1,0 +1,57 @@
+{
+  "EVSEs": [
+    {
+      "id": 1,
+      "connectors": [
+        {
+          "id": 1,
+          "type": "Schuko",
+          "status": "Available",
+          "session": {
+            "is_active": false,
+            "transaction_id": "",
+            "tag_id": "",
+            "started": "",
+            "consumption": []
+          },
+          "relay": {
+            "relay_pin": 26,
+            "default_state": 1
+          },
+          "power_meter": {
+            "power_meter_pin": 25,
+            "spi_bus": 0,
+            "power_units": "kWh",
+            "consumption": 0,
+            "shunt_offset": 0.055,
+            "voltage_divider_offset": 1333
+          }
+        },
+        {
+          "id": 2,
+          "type": "Schuko",
+          "status": "Available",
+          "session": {
+            "is_active": false,
+            "transaction_id": "",
+            "tag_id": "",
+            "started": "",
+            "consumption": []
+          },
+          "relay": {
+            "relay_pin": 13,
+            "default_state": 1
+          },
+          "power_meter": {
+            "spi_bus": 0,
+            "power_meter_pin": 0,
+            "power_units": "kWh",
+            "consumption": 0,
+            "shunt_offset": 0.52,
+            "voltage_divider_offset": 0.01
+          }
+        }
+      ]
+    }
+  ]
+}

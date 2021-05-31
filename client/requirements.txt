@@ -1,0 +1,17 @@
+websockets~=8.1
+ocpp~=0.8.3
+GPIO
+RPLCD~=1.3.0
+smbus2
+spidev
+wget
+mfrc522~=0.0.7
+unsync==1.3.2
+rpi_ws281x
+aiofiles~=0.6.0
+apscheduler==3.7.0
+graypy~=2.1.0
+python-string-utils
+adafruit-circuitpython-pn532
+adafruit_pn532
+semantic-version
