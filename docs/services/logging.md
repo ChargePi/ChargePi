@@ -5,15 +5,14 @@
 You should have a publicly accessible Linux or Windows server with Docker and docker-compose installed.
 
 See [Docker](https://docs.docker.com/engine/install/)
-and [docker-compose installation](https://docs.docker.com/compose/install/)
-for installation guides.
+and [docker-compose installation](https://docs.docker.com/compose/install/) for installation guides.
 
 ## Running Graylog server with docker-compose
 
 1. Copy the following code into docker-compose.yaml. If cloning from GitHub, the docker-compose should be in the
-   _logging_ folder.
+   `logging` folder.
 
-```
+```yaml
 version: '3'
 services:
   mongo:
@@ -68,4 +67,6 @@ volumes:
 
 2. Run using:
 
-   > sudo docker-compose up -d
+   ```bash 
+   sudo docker-compose up -d
+   ```
