@@ -10,12 +10,20 @@ ChargePi client can be deployed/run in multiple ways:
 - Docker-compose to be deployed with SteVe Central System and Watchtower (**recommended for dev/testing only**)
 - Docker-compose by running the client
 
+# :warning: Deprecation notice
+
+This project is no longer maintained, as we've moved to a more optimized and feature-rich version of the project in Go (
+[ChargePi-go](https://github.com/ChargePi/ChargePi-go)).
+
+The goal is to create a hardware-agnostic smart charge point platform. The Go version supports more features and
+hardware, and is optimized for better performance. Any contributions are welcome.
+
 ## Charging station specifications
 
-| Protocol implementation | Core functionalities | Offline charging | Local authorization | Charging profiles |
-| :---:    | :---:    | :---:    |:---:    | :---:    |
-| OCPP 1.6 JSON/WS | ✔️ | ✔️ | ✔️ | ❌ |
-| OCPP 2.0.1 JSON/WS | Will be implemented | Will be implemented | Will be implemented | ❌ |
+| Protocol implementation | Core functionalities |  Offline charging   | Local authorization | Charging profiles |
+|:-----------------------:|:--------------------:|:-------------------:|:-------------------:|:-----------------:|
+|    OCPP 1.6 JSON/WS     |          ✔️          |         ✔️          |         ✔️          |         ❌         |
+|   OCPP 2.0.1 JSON/WS    | Will be implemented  | Will be implemented | Will be implemented |         ❌         |
 
 ## Graylog logging server
 
@@ -103,18 +111,6 @@ it when it is available.
    docker-compose up -d
    ```
 
-## Note:
-
-The project is still under development. There are some known issues to be addressed:
-
-- Multithreading makes the client very unstable. The client may crash for unknown reasons at any time.
-- Sampling, sending values or overall responsiveness when using the power meter may not be perfect or work as intended.
-
-Any contributions to the project are more than welcome. Fork and submit the PR with proper documentation and i'll review
-it. Thanks!
-
-If you are interested in a Go version of the project, which is optimized and supports more features and hardware, please
-check out [ChargePi-go](https://github.com/xBlaz3kx/ChargePi-go). 
 
 
 
